@@ -1,7 +1,10 @@
 # TorgMailruApi
 
 Torg.Mail.Ru Content API Wrapper
+
 TODO: Write a gem description
+
+Torg.Mail.Ru Content API documentation is available [here](http://torg.mail.ru/info/217/).
 
 ## Installation
 
