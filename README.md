@@ -2,6 +2,8 @@
 
 Torg.Mail.Ru Content API Wrapper
 
+[![Gem Version](https://badge.fury.io/rb/torg_mailru_api.png)](http://badge.fury.io/rb/torg_mailru_api)
+
 TODO: Write a gem description
 
 Torg.Mail.Ru Content API documentation is available [here](http://torg.mail.ru/info/217/).
