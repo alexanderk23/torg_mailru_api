@@ -19,17 +19,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+``` ruby
+require 'torg_mailru_api'
 
-    require 'torg_mailru_api'
-
-    TorgMailruApi.configure do |c|
-      c.access_token = 'YourSecretAccessToken'
-    end
+TorgMailruApi.configure do |c|
+  c.access_token = 'YourSecretAccessToken'
+end
     
-    TorgMailruApi.vendors.each do |vendor|
-      p vendor.name
-    end
+TorgMailruApi.vendors.each do |vendor|
+  p vendor.name
+end
+```
 
 ## Contributing
 
