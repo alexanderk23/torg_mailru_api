@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alexanderk23@gmail.com"]
   spec.description   = %q{Torg.Mail.Ru Content API Wrapper}
   spec.summary       = %q{Torg.Mail.Ru Content API Wrapper}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/alexanderk23/torg_mailru_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

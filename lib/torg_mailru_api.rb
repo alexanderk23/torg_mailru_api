@@ -451,7 +451,7 @@ module TorgMailruApi
     # Получение списка регионов, удовлетворяющих строке запроса.
     # Ресурс в ответе возвращает листинг.
     def region_suggest params
-      listing "region/sugggest", params
+      listing "region/suggest", params
     end
 
   end
