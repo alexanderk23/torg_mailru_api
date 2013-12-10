@@ -437,7 +437,7 @@ module TorgMailruApi
     # Получение списка дочерних регионов для выбранного региона.
     # Ресурс в ответе возвращает листинг.
     def region_children region_id, params=nil
-      listing "regions/#{region_id}/children", params
+      listing "region/#{region_id}/children", params
     end
 
     ## Информация о регионе
