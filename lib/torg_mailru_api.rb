@@ -94,7 +94,7 @@ module TorgMailruApi
         when Array
           value.map { |v| decamelize_hash_keys(v) }
         when Hash
-          Hash[value.map { |k, v| [ k.scan(/[A-Z][a-z]*/).join('_').downcase, decamelize_hash_keys(v) ] }]
+          Hash[value.map { |k, v| [ k.scan(/[A-Z][a-z]*|[a-z]+/).join('_').downcase, decamelize_hash_keys(v) ] }]
         when String
           value.gsub(/\s{2,}|[\r\n]/, ' ').strip
         else
